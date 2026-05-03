@@ -1,0 +1,19 @@
+.block-container {
+    padding-top: 0rem;
+            padding-bottom: 0rem;
+            padding-left: 0rem;
+            padding-right: 0rem;
+            padding: 0 !important;
+    margin: 0 !important;
+        }
+
+        /* Remove margin from body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Optional: remove header spacing */
+        header {
+            visibility: hidden;
+        }

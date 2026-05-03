@@ -4,7 +4,10 @@ from templates.navbar import Navbar
 class App:
     def __init__(self):
         self.navbar = Navbar()
-        st.set_page_config(page_title="Sonar Object Classifier")
+        st.set_page_config(
+            page_title="Sonar Object Classifier", 
+            layout="wide"
+            )
     
     def run(self):
         self.navbar.main()
