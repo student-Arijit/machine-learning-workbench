@@ -11,6 +11,16 @@ class Navbar:
 
     def main(self):
         st.markdown("""
-            <p> hello</p>
-            <hr>
+            <div class="nav-main">
+    <div class="nav-left">
+        <div class="nav-dots">
+            <div class="dot dot1"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+        </div>
+        <div class="nav-heading">Sonar Object Classifier</div>
+    </div>
+    <div class="nav-descp">60-Band Frequency Analysis | AI-Powered</div>
+</div>
+
                     """, unsafe_allow_html=True)

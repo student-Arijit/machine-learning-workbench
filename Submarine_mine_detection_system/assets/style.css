@@ -1,19 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 .block-container {
     padding-top: 0rem;
-            padding-bottom: 0rem;
-            padding-left: 0rem;
-            padding-right: 0rem;
-            padding: 0 !important;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding: 0 !important;
     margin: 0 !important;
-        }
+}
 
-        /* Remove margin from body */
-        body {
-            margin: 0;
-            padding: 0;
-        }
+body {
+    margin: 0;
+    padding: 0;
+}
 
-        /* Optional: remove header spacing */
-        header {
-            visibility: hidden;
-        }
+header {
+    visibility: hidden;
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -15px;
+    padding: 14px 20px;
+    background: #010913;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.15);
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-dots {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.dot1 { background: #10ffff; box-shadow: 0 0 8px rgba(0,255,255,0.7); }
+.dot2 { background: #0cd6d6; }
+.dot3 { background: rgba(27,78,78,0.85); }
+
+.nav-heading {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(10px, 2vw, 14px);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: cyan;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.nav-descp {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(7px, 1.2vw, 10px);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #6b7f7f;
+    white-space: nowrap;
+}
+
