@@ -22,7 +22,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -15px;
+    position: sticky;
+    margin-top: -31px;
     padding: 14px 20px;
     background: #010913;
     border-bottom: 1px solid rgba(0, 255, 255, 0.15);
@@ -71,3 +72,20 @@ header {
     white-space: nowrap;
 }
 
+.st-key-my_container {
+    background-color: #030d1a !important;
+    border: 0.5px solid #034249ef !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    margin: 15px;
+}
+
+.signal-title {
+    font-family: 'Orbitron', sans-serif;
+    color: #6b7f7f;
+    text-transform: uppercase;
+}
+
+/*div.stButton > button {
+    font-family: 'Orbitron', sans-serif;
+}*/
