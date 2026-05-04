@@ -16,9 +16,9 @@ class App:
         c1, c2 = st.columns(2)
         with c1:
             self.data.data()
-        with c2:
+            self.data.data_stat()
+        
             
-
 if __name__ == "__main__":
     app = App()
     app.run()
