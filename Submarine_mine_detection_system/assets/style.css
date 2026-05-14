@@ -23,7 +23,7 @@ header {
     align-items: center;
     justify-content: space-between;
     position: sticky;
-    margin-top: -31px;
+    margin-top: -55px;
     padding: 14px 20px;
     background: #010913;
     border-bottom: 1px solid rgba(0, 255, 255, 0.15);
@@ -95,6 +95,11 @@ header {
     margin-top: -17px;
 }
 
-/*div.stButton > button {
-    font-family: 'Orbitron', sans-serif;
-}*/
+.st-key-predict {
+    background-color: #030d1a !important;
+    border: 0.5px solid #034249ef !important;
+    width:auto;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    margin: 15px;
+}
