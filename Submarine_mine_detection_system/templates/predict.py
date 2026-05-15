@@ -36,7 +36,7 @@ class Predict:
             <div class="sonar-card">
                 <div class="status-line">
                     <div class="status-dot"></div>
-                    SYSTEM ACTIVE · MODEL INFERENCE COMPLETE
+                    SYSTEM ACTIVE · MODEL RESPONSING
                 </div>
             <div class="sonar-header">▶ SONAR CLASSIFICATION RESULT</div>
             <div class="sonar-result">
